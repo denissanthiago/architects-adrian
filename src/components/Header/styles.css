@@ -1,6 +1,7 @@
 header {
 	background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 	padding: 20px 40px;
+	position: relative;
 }
 
 .logo h1 {
@@ -21,7 +22,10 @@ nav {
 }
 
 .mobile-menu-options {
+	position: absolute;
 	width: 100%;
+	top: 64px;
+	right: 0;
 }
 
 .mobile-menu-options ul {
